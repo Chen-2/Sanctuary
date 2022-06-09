@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coding Project - Homepage</title>
+        <link rel="stylesheet" href="test.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+            $(function() {
+                var clicked=true;
+                $(".one").on('click', function(){
+                    if(clicked)
+                    {
+                        clicked=false;
+                        $(".two").css({"left": 0});
+                    }
+                    else
+                    {
+                        clicked=true;
+                        $(".two").css({"left": "-40px"});
+                    }
+                });
+            });
+        </script>
+
+    </head>
+    <header>
+        <div class="container">
+            <div class="one">Click me to reveal new div</div>
+            <div class="two">I slid!
+                <br>And I am higher than the div before me...</div>
+        </div>
+    </header>

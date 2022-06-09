@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="Instruction1.svg"
+   inkscape:export-filename="C:\Users\亦辰\Desktop\Collection\Instruction3.png"
+   inkscape:export-xdpi="500.68582"
+   inkscape:export-ydpi="500.68582"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="544.07361"
+     inkscape:cy="701.80542"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g867"
+     showgrid="false"
+     inkscape:lockguides="true"
+     inkscape:window-width="2256"
+     inkscape:window-height="1398"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     showguides="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-87)"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:0.94117647;fill-rule:nonzero;stroke:#cdcdcd;stroke-width:0.76635367;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815"
+       width="77.407852"
+       height="25.268429"
+       x="134.30403"
+       y="149.14481" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.11057568px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20276439px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="138.17592"
+       y="156.5616"
+       id="text819"><tspan
+         sodipodi:role="line"
+         id="tspan817"
+         x="138.17592"
+         y="156.5616"
+         style="font-size:4.86634541px;line-height:3.83176827px;letter-spacing:0.15004565px;word-spacing:0px;stroke-width:0.20276439px"
+         dy="2.9887793">Click on each button to </tspan><tspan
+         sodipodi:role="line"
+         x="138.17592"
+         y="166.69981"
+         style="font-size:4.86634541px;line-height:3.83176827px;letter-spacing:0.15004565px;word-spacing:0px;stroke-width:0.20276439px"
+         id="tspan821">inspect each object</tspan></text>
+    <path
+       style="fill:none;stroke:#d2d2d2;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99607843"
+       d="m 133.99256,162.81846 -21.73363,-8.50447"
+       id="path827"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     transform="translate(0,-87)"
+     id="g839"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1 复制"
+     style="display:none">
+    <rect
+       y="112.85909"
+       x="150.93498"
+       height="25.268429"
+       width="77.407852"
+       id="rect829"
+       style="opacity:1;fill:#ffffff;fill-opacity:0.94117647;fill-rule:nonzero;stroke:#cdcdcd;stroke-width:0.76635367;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text835"
+       y="120.28835"
+       x="154.80687"
+       style="font-style:normal;font-weight:normal;font-size:8.11057568px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20276439px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan833"
+         style="font-size:4.86634541px;line-height:3.83176827px;letter-spacing:0.15004565px;word-spacing:0px;stroke-width:0.20276439px"
+         y="120.28835"
+         x="154.80687"
+         sodipodi:role="line"
+         dy="2.99">The objectives will give </tspan><tspan
+         style="font-size:4.86634541px;line-height:3.83176827px;letter-spacing:0.15004565px;word-spacing:0px;stroke-width:0.20276439px"
+         y="130.42657"
+         x="154.80687"
+         sodipodi:role="line"
+         id="tspan855">you hints on what to do</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path837"
+       d="m 228.34283,112.85909 22.60439,-5.80674"
+       style="fill:none;stroke:#d2d2d2;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99607843" />
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="Layer 1 复制 复制"
+     inkscape:groupmode="layer"
+     id="g867"
+     transform="translate(0,-87)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:0.94117647;fill-rule:nonzero;stroke:#cdcdcd;stroke-width:0.76635367;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect857"
+       width="77.407852"
+       height="25.268429"
+       x="34.945824"
+       y="103.78765" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.11057568px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20276439px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="38.817711"
+       y="105.11736"
+       id="text863"><tspan
+         id="tspan861"
+         sodipodi:role="line"
+         x="38.817711"
+         y="105.11736"
+         style="font-size:4.86634541px;line-height:3.83176827px;letter-spacing:0.15004565px;word-spacing:0px;stroke-width:0.20276439px"
+         dy="5.98">Additional functions such </tspan><tspan
+         sodipodi:role="line"
+         x="38.817711"
+         y="115.25558"
+         style="font-size:4.86634541px;line-height:3.83176827px;letter-spacing:0.15004565px;word-spacing:0px;stroke-width:0.20276439px"
+         id="tspan871"
+         dy="2.99">as restart can be found in </tspan><tspan
+         sodipodi:role="line"
+         x="38.817711"
+         y="125.39379"
+         style="font-size:4.86634541px;line-height:3.83176827px;letter-spacing:0.15004565px;word-spacing:0px;stroke-width:0.20276439px"
+         id="tspan873">the menu bar</tspan></text>
+    <path
+       style="fill:none;stroke:#d2d2d2;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99607843"
+       d="M 34.945827,103.78765 12.341437,97.980915"
+       id="path865"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

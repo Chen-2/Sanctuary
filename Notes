@@ -1,0 +1,30 @@
+class="text"
+    font-family: 'Open Sans', sans-serif;
+    font-size: ?
+    font-weight: 300
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+class="title"
+    font-family: 'Montserrat', sans-serif;
+    font-size: ?
+    font-weight: 400
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+slogan
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50/60px
+    font-weight: 600 Italic
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+
+1. alignment of top nav
+2. regroup the elements of top nav into new containers
+3. font/style of section title
+4. pos of arrows of slideshow
+5. style of contact elements
+6. the sponsor container
+8. the back to top button
+7. the background
+8. do the 2nd page
+
+
+add a button that users can explore, then they click on it the website will switch to the darkside

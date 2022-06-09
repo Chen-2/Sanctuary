@@ -2,203 +2,147 @@
     <head>
         <meta charset="UTF-8">
         <title>Coding Project - Homepage</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>        
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> <!-- for class="text" -->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> <!-- for class="title" -->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet"> <!-- for slogan -->
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"> <!-- for ???-->
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
-
     <header>
-        <img src="../projectZ/LogoX.png" class="Logo">
-        <div class="TopNavContainer">
-            <h3 class="TopNav">Sign In</h3>
-            <h3 class="TopNav">Visit</h3>
-            <h3 class="TopNav">Attractions</h3>
-            <h3 class="TopNav">Services</h3>
-            <h3 class="TopNav">Shop</h3>
-        </div>
+        <img src="" class="Logo">
+        <h3 class="TopNav">Sign In</h3>
+        <h3 class="TopNav">About</h3>
+        <h3 class="TopNav">Attractions</h3>
+        <h3 class="TopNav">Services</h3>
+        <h3 class="TopNav">Shop</h3>
     </header>
-
     <body>
         <div class="Background">
-            <img src="C:\Users\亦辰\Desktop\projectX\Sanctuary.jpg" style="width:100%; object-fit: cover; opacity: 0.5; z-index: -1;" class="BackgroundImg1">
-            <img src="../projectZ/frame.svg" style="object-fit: cover;" class="BackgroundImg2">
-            <div class="bottom-left1">Become the idol you wish to be</div>
-            <div class="bottom-left2">IN THE SANCTUARY!!</div>
-            <!--
-            <button class="Sancturay" style="right: 0; left: 0; position: absolute; margin-left: auto; margin-right: auto; width: 100px; top: 60%; background-color: #d336b6; border: none; opacity: 0.5">Try out the Sancturay!</button>
-            -->
-            <button class="Sanctuary">Try out the Sancturay!</button>
+            <img src="C:\Users\亦辰\Desktop\project2\Sanctuary.jpg" style="width:100%; opacity: 0.5; object-fit: cover;">
+            <div class="bottom-left" style="right: 0; left: 0; position: absolute; margin-left: auto; margin-right: auto; width: fit-content; top: 50%;">Become the idol you wish to be in the Sanctuary!</div>
+            <button class="Sancturay" style="right: 0; left: 0; position: absolute; margin-left: auto; margin-right: auto; width: 100px; top: 60%;">Try out the Sancturay!</button>
         </div>
 
-        <div class="GradientBackground">
-            <div style="text-align:center; position: relative;">
-                <h3 style="text-align: center;margin: 55px 0px; display:inline-block; font-family: 'Montserrat', sans-serif; font-size: 40px; text-decoration: none; font-weight: 800; color: #d850bf;">About the Sanctuary</h3>
-            </div>
+        <hr class="solid" style="border-top: 4px solid #CFBAF0; border-radius: 5px;">
 
-            <div id="carouselFade" class="carousel slide carousel-fade shadow-none" data-ride="carousel" style="height: 330px; width: 600px; position: relative; margin-left: auto; margin-right: auto;">    
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">  
-                        <div class="carousel-caption">
-                        </div>
-                    </div>
-                    <div class="item"> 
-                        <div class="carousel-caption">
-                        </div>
-                    </div>
-                        <div class="item"> 
-                            <div class="carousel-caption">
-                        </div>
-                    </div>
+        <div class="Featuring-Background" style="margin-bottom: 150px;">
+            <h2 style="text-align: center; display: block; margin-top: 60px; margin-bottom: 20px;" id="Featuring">Featuring</h2>
+            <div class="Featuring" style="margin-top: 60px;">
+                <div class="block" class="container">
+                    <img src="C:\Users\亦辰\Desktop\project2\Valentine.jpg" style="width: 95%; margin-bottom: 25px; border-radius: 10px;">
+                    <a href="#a" class="title" style="text-align: center; margin-bottom: 20px;">Feel the Love in the Air!</a>
+                    <a href="#a" class="text" style="text-align: center;">Celebrate Valentine's Day in the Sancturay with limited attractions and meals!</a>
                 </div>
-                    
-                <!-- Controls -->
-                <a class="left carousel-control shadow-none" href="#carouselFade" role="button" data-slide="prev" style="left: -80px;">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control shadow-none" href="#carouselFade" role="button" data-slide="next" style="right: -80px;">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-
-            <div class="Featuring-Background">
-                
-                <!--THE SVG CODE THAT NEEDS TINKERING ↓ ↓ ↓
-                <div id="FeaturingSvg">
-                    <svg viewBox="0 0 500 500">
-                        <g>
-                            <text class="svgStrokeF">SVG Thickly Stroked!</text>
-                        </g>
-                    </svg>
+                <div class="block" class="container">
+                    <img src="C:\Users\亦辰\Desktop\project2\Niki.jpg" style="width: 95%; margin-bottom: 25px; border-radius: 10px;">
+                    <a href="#a" class="title" style="text-align: center; margin-bottom: 20px;">Meet Shiina Niki in Person!</a>
+                    <a href="#a" class="text" style="text-align: center;">Our famous chef-idol is visiting the Sanctuary, catch him in action and take home some culinary skills.</a>
                 </div>
-                --> 
-
-                <h2 id="BigTitle" style="color: #ff8188;">Featuring</h2>
-                <a href="#a" id="SeeAll">See What is New in the Sanctuary</a>
-                <div class="Featuring">
-                    <div class="background-text-bigger">FEATURING </div>
-                    <div class="block" class="container" style="width: 350px; margin-left: auto; margin-right: auto; background-color: #ffffff50; border-radius: 10px;">
-                        <img src="C:\Users\亦辰\Desktop\projectX\Valentine.jpg" class="Photo">
-                        <a href="#a" class="title">Feel the Love in the Air!</a>
-                        <a href="#a" class="text">Celebrate Valentine's Day in the Sancturay with limited attractions and meals!</a>
-                    </div>
-                    <div class="block" class="container" style="width: 350px; margin-left: auto; margin-right: auto; background-color: #ffffff50; border-radius: 10px; position: relative; top: 60px;">
-                        <img src="C:\Users\亦辰\Desktop\projectX\Niki.jpg" class="Photo">
-                        <a href="#a" class="title">Meet Shiina Niki in Person!</a>
-                        <a href="#a" class="text">Our famous chef-idol is visiting the Sanctuary, catch him in action and take home some culinary skills.</a>
-                    </div>
-                    <div class="block" class="container" style="width: 350px; margin-left: auto; margin-right: auto; background-color: #ffffff50; border-radius: 10px; position: relative; top: 120px;">
-                        <img src="C:\Users\亦辰\Desktop\projectX\DS.jpg" class="Photo">
-                        <a href="#a" class="title">Visit our Brand-New Dark Side Area!</a>
-                        <a href="#a" class="text">We have finished upgrading the Dark Side! Reserve here to try it first-hand!</a>
-                    </div>
+                <div class="block" class="container">
+                    <img src="C:\Users\亦辰\Desktop\project2\DS.jpg" style="width: 95%; margin-bottom: 25px; border-radius: 10px;">
+                    <a href="#a" class="title" style="text-align: center; margin-bottom: 20px;">Visit our Brand-New Dark Side Area!</a>
+                    <a href="#a" class="text" style="text-align: center;">We have finished upgrading the Dark Side! Reserve here to try it first-hand!</a>
                 </div>
             </div>
+        </div>
 
-            <div class="Attractions-Background">
-                <h2 id="BigTitle" style="color: #ffba00;">Attractions</h2>
-                <a href="#a" id="SeeAll">See All Attractions</a>
-                <div class="Attractions">
-                    <div class="background-text-bigger">ATTRACTIONS </div>
-                    <div class="block" class="container" style="width: 350px; margin-left: auto; margin-right: auto; background-color: #ffffff50; border-radius: 10px; position: relative; top: 120px;">
-                        <img src="C:\Users\亦辰\Desktop\projectX\Downstage.jpg">
-                        <a href="#a" class="title">Life behind the Stage</a>
-                        <a href="#a" class="text">Experience the different but vibrant daily life of idols.</a>
-                    </div>
-                    <div class="block" class="container" style="width: 350px; margin-left: auto; margin-right: auto; background-color: #ffffff50; border-radius: 10px; position: relative; top: 60px;">
-                        <img src="C:\Users\亦辰\Desktop\projectX\Satellite.jpg">
-                        <a href="#a" class="title">Ensemble Together!</a>
-                        <a href="#a" class="text">Feel the joy of being an idol by performing lives of different themes.</a>
-                    </div>
-                    <div class="block" class="container" style="width: 350px; margin-left: auto; margin-right: auto; background-color: #ffffff50; border-radius: 10px;">
-                        <img src="C:\Users\亦辰\Desktop\projectX\Studio.png">
-                        <a href="#a" class="title">The Studio World</a>
-                        <a href="#a" class="text">Expand your reach by becoming a main cast in films, reality show and drama series.</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="Services-Background">
-                <h2 id="BigTitle" style="color: #088615;">Services</h2>
-                <a href="#a" id="SeeAll">See All Services</a>
-                <div class="Services" style="margin-top: 60px;">
-                    <div class="background-text-bigger">SERVICES </div>
-                    <div class="block" class="container" style="width: 350px; margin-left: auto; margin-right: auto; background-color: #ffffff50; border-radius: 10px;  position: relative; top: 60px;">
-                        <img src="C:\Users\亦辰\Desktop\projectX\Cinnamon.jpg">
-                        <a href="#a" class="title">Café "Cinnamon"</a>
-                        <a href="#a" class="text">Try the dishes provided at Ensemble Square and stand a chance to meet some famous chef-idols.</a>
-                    </div>
-                    <div class="block" class="container" style="width: 350px; margin-left: auto; margin-right: auto; background-color: #ffffff50; border-radius: 10px;">
-                        <img src="C:\Users\亦辰\Desktop\projectX\Hotel.jpg">
-                        <a href="#a" class="title">The Galaxy Pavilion</a>
-                        <a href="#a" class="text">Indulge in luxurious rooms built according to the real Galaxy Pavilion, where idols live.</a>
-                    </div>
-                    <div class="block" class="container" style="width: 350px; margin-left: auto; margin-right: auto; background-color: #ffffff50; border-radius: 10px; position: relative; top: 60px;">
-                        <img src="C:\Users\亦辰\Desktop\projectX\Shop.jpg">
-                        <a href="#a" class="title">Fans' Sancturay</a>
-                        <a href="#a" class="text">Find Sancturay-exclusive merchandise, as well as other popular goods idols use.</a> 
-                    </div>
-                </div>
-            </div>
-            
-            <div class="Visitors-Background">
-                <h2 id="BigTitle" style="color: #0c5e79">Our Visitors</h2>
-                <div class="Visitors">
-                    <div class="background-text-bigger">VISITORS </div>
-                    <div class="block" class="container" style="width: 350px; margin-left: auto; margin-right: auto; background-color: #ffffff50; border-radius: 10px;">
-                        <img src="C:\Users\亦辰\Desktop\placeholder-image-768x576.png">
-                        <p class="text"><en>Listen to Hidaka Seiya</en> <br>on how the Sancturay will change the industry.</a>
-                    </div>
-                    <div class="block" class="container" style="width: 350px; margin-left: auto; margin-right: auto; background-color: #ffffff50; border-radius: 10px; position: relative; top: 60px;">
-                        <img src="C:\Users\亦辰\Desktop\placeholder-image-768x576.png">
-                        <p class="text">Listen to XXX on how the Sanctuary formed his dream of becoming an idol.</a>
-                    </div>
-                    <div class="block" class="container" style="width: 350px; margin-left: auto; margin-right: auto; background-color: #ffffff50; border-radius: 10px;">
-                        <img src="C:\Users\亦辰\Desktop\placeholder-image-768x576.png">
-                        <p class="text">Listen to XXX on how the Sancturay changed his understanding of the idol industry.</a>
-                    </div>
-                </div>
-            </div>
+        <hr class="solid" style="border-top: 4px solid #FDE4CF; border-radius: 5px;">
 
-            <div class="ContactSponsor" style="height: 200px; display: flex; justify-content: space-around; border-radius: 20px 20px 0 0;">
-                <div class="Contact" style="display: inline-block; margin: auto; position: relative;">
-                    <p style="text-align: center; display: block; font-family: 'Montserrat', sans-serif; font-size: 20px; font-weight: bold; color: #ffffff;" id="Contact"> Planning a Visit?</h2>
-                    <p style="text-align: center; display: block; font-family: 'Montserrat', sans-serif; font-size: 20px; font-weight: bold; color: #ffffff;">Contact us!</h2>
-                    <input type="text" id="email" name="email" class="ContactInput" style="margin: auto; display: block; border-radius: 20px; border: none; margin-top: 10px;" placeholder="Email">
+        <div class="Attractions-Background" style="margin-bottom: 150px;">
+            <h2 style="text-align: center; display: block; margin-top: 60px; margin-bottom: 20px;" id="Attractions">Attractions</h2>
+            <a href="#a" style="text-align: center; display: block; margin-bottom: 30px; text-decoration: none;" id="Services">See All Attractions</a>
+            <div class="Attractions" style="margin-top: 60px;">
+                <div class="block" class="container">
+                    <img src="C:\Users\亦辰\Desktop\project2\Downstage.jpg" style="width: 95%; margin-bottom: 25px; border-radius: 10px;">
+                    <a href="#a" class="title" style="text-align: center; margin-bottom: 20px;">Life behind the Stage</a>
+                    <a href="#a" class="text" style="text-align: center;">Experience the different but vibrant daily life of idols.</a>
                 </div>
-
-                <div class="Sponsors" style=" display: inline-block; margin: auto; position: relative;">
-                    <h2 style="text-align: center; display: block; color: #ffffff; font-family: 'Montserrat', sans-serif; font-size: 20px; font-weight: bold;">The Sanctuary is Sponsored by</h2>
-                    <div style="display: block; margin-left: auto; margin-right: auto;">
-                        <img src="../projectZ/SSX.png" style="display: inline-block; height: 120px;">
-                        <img src="../projectZ/EnsembleSquare.png" style="display: inline-block; height: 120px;">
-                    </div>
-                    
+                <div class="block" class="container">
+                    <img src="C:\Users\亦辰\Desktop\project2\Satellite.jpg" style="width: 95%; margin-bottom: 25px; border-radius: 10px;">
+                    <a href="#a" class="title" style="text-align: center; margin-bottom: 20px;">Ensemble Together!</a>
+                    <a href="#a" class="text" style="text-align: center;">Feel the joy of being an idol by performing lives of different themes.</a>
+                </div>
+                <div class="block" class="container">
+                    <img src="C:\Users\亦辰\Desktop\project2\Studio.png" style="width: 95%; margin-bottom: 25px; border-radius: 10px;">
+                    <a href="#a" class="title" style="text-align: center; margin-bottom: 20px;">The Studio World</a>
+                    <a href="#a" class="text" style="text-align: center;">Expand your reach by becoming a main cast in films, reality show and drama series.</a>
                 </div>
             </div>
         </div>
         
-        <button id="myBtn" style="border-radius: 5px;"><a href="#top" style="color: white; text-decoration: none;">Top</a></button>
+        <hr class="solid" style="border-top: 4px solid #B9FBC0; border-radius: 5px;">
+        
+        <div class="Services-Background" style="margin-bottom: 150px;">
+            <h2 style="text-align: center; display: block; margin-top: 60px; margin-bottom: 20px;" id="Services">Services</h2>
+            <a href="#a" style="text-align: center; display: block; margin-bottom: 30px; text-decoration: none;" id="Services">See All Services</a>
+            <div class="Services" style="margin-top: 60px;">
+                <div class="block" class="container">
+                    <img src="C:\Users\亦辰\Desktop\project2\Cinnamon.jpg" style="width: 95%; margin-bottom: 25px; border-radius: 10px;">
+                    <a href="#a" class="title" style="text-align: center; margin-bottom: 20px;">Café "Cinnamon"</a>
+                    <a href="#a" class="text" style="text-align: center;">Try the dishes provided at Ensemble Square and stand a chance to meet some famous chef-idols.</a>
+                </div>
+                <div class="block" class="container">
+                    <img src="C:\Users\亦辰\Desktop\project2\Hotel.jpg" style="width: 95%; margin-bottom: 25px; border-radius: 10px;">
+                    <a href="#a" class="title" style="text-align: center; margin-bottom: 20px;">The Galaxy Pavilion</a>
+                    <a href="#a" class="text" style="text-align: center;">Indulge in luxurious rooms built according to the real Galaxy Pavilion, where idols live.</a>
+                </div>
+                <div class="block" class="container">
+                    <img src="C:\Users\亦辰\Desktop\project2\Shop.jpg" style="width: 95%; margin-bottom: 25px; border-radius: 10px;">
+                    <a href="#a" class="title" style="text-align: center; margin-bottom: 20px;">Fans' Sancturay</a>
+                    <a href="#a" class="text" style="text-align: center;">Find Sancturay-exclusive merchandise, as well as other popular goods idols use.</a> 
+                </div>
+            </div>
+        </div>
 
         <!--
-        <svg id = "svgelem" width = "300" height = "300" xmlns = "http://www.w3.org/2000/svg">
-            <polygon points="100,10 40,180 190,60 10,60 160,180" fill="blue"/>
-        </svg>
-
-        <svg viewBox="0 0 450 70">
-            <text class="svgStroke" x="10" y="45">SVG Thickly Stroked!</text>
-        </svg>
+        <hr class="solid" style="color: #A3C4F3; border-top: 5px;">
         -->
+
+        <hr class="solid" style="border-top: 4px solid #A3C4F3; border-radius: 5px;">
+        
+        <div class="Visitors-Background" style="margin-bottom: 150px;">
+            <h2 style="text-align: center; display: block; margin-top: 60px; margin-bottom: 20px;" id="Visitors">Our Visitors</h2>
+            <div class="Visitors">
+                <div class="block" class="container">
+                    <img src="C:\Users\亦辰\Desktop\placeholder-image-768x576.png" style="width: 95%; margin-bottom: 25px; border-radius: 10px;">
+                    <p class="text" style="text-align: center;"><en>Listen to Hidaka Seiya</en> <br>on how the Sancturay will change the industry.</a>
+                </div>
+                <div class="block" class="container">
+                    <img src="C:\Users\亦辰\Desktop\placeholder-image-768x576.png" style="width: 95%; margin-bottom: 25px; border-radius: 10px;">
+                    <p class="text" style="text-align: center;">Listen to XXX on how the Sanctuary formed his dream of becoming an idol.</a>
+                </div>
+                <div class="block" class="container">
+                    <img src="C:\Users\亦辰\Desktop\placeholder-image-768x576.png" style="width: 95%; margin-bottom: 25px; border-radius: 10px;">
+                    <p class="text" style="text-align: center;">Listen to XXX on how the Sancturay changed his understanding of the idol industry.</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="Contact" style="height: 300px;">
+            <h2 style="text-align: center; display: block; margin-top: 60px; margin-bottom: 20px;" id="Contact"> Planning a Visit?</h2>
+            <h2 style="text-align: center; display: block; margin-bottom: 20px;">Contact us!</h2>
+            <input type="text" id="email" name="email" class="ContactInput" style="  margin: auto; display: block;">
+
+            <h2 style="text-align: center; display: block;">Sponsored by</h2>
+            <div class="Sponsor-Container">
+                <img src="C:\Users\亦辰\Desktop\project2\EnsembleSquare.png" class="Sponsors">
+                <img src="C:\Users\亦辰\Desktop\project2\SSX.png" class="Sponsors">
+            </div>
+        </div>
+        
+        <button id="myBtn"><a href="#top" style="color: white; text-decoration: none;">Top</a></button>
+
+
+
+
+
+<!--
+        <div id="mySidenav" class="sidenav">
+            <a href="#Featuring">Featuring
+            <a href="#Attractions">Attractions
+            <a href="#Services">Services
+            <a href="#Visitors">Visitors
+            <a href="#Contact">Contact
+        </div>
+-->
+
+
 
     </body>
 </html>
